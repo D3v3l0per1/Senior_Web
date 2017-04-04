@@ -18,6 +18,22 @@ header {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5); }
+  header .search {
+    position: absolute;
+    margin-left: 5%;
+    width: 30%;
+    box-shadow: none;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.8);
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    border: none; }
+    header .search:hover {
+      transition: all 0.2s ease-in-out;
+      border: 2px solid #F99273;
+      border-radius: 5px; }
   header .nav {
     width: 80%;
     margin: 0 auto;
